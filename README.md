@@ -1,4 +1,4 @@
-# I-monlyforuNish-Pun
+# I-monlyforuNish-Pu
 # For the remainder for my crus*
 import time
 import random
@@ -10,8 +10,7 @@ chars = "01@#$%&*ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def clear():
     os.system("clear")
-
-# Typing effect
+    
 clear()
 for c in "Initializing system...\n":
     sys.stdout.write(c)
@@ -20,7 +19,6 @@ for c in "Initializing system...\n":
 
 time.sleep(1)
 
-# Glitch effect
 for _ in range(10):
     clear()
     for i in range(10):
@@ -28,7 +26,6 @@ for _ in range(10):
         print(line)
     time.sleep(0.1)
 
-# Name animation
 clear()
 while True:
     clear()
